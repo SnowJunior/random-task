@@ -26,7 +26,6 @@ class StoreTaskRequest extends FormRequest
         return [
             'name' => ['required','min3','max20'],
             'description' => ['required','min3','max20'],
-            'status_id' => ['required', Rule::unique('tasks')->ignore($this->task) ]
         ];
     }
 }
