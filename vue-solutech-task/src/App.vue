@@ -7,9 +7,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <div class="max-w-7xl mx-auto">
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/task">Task</RouterLink>
+      <nav class="p-2">
+        <RouterLink to="/" class="px-4 py-2 mr-4 bg-green-400 hover:bg-purple-500 rounded text-white">Home</RouterLink>
+        <RouterLink to="/tasks" class="px-4 py-2 mr-4 bg-green-400 hover:bg-purple-500 rounded text-white">Task</RouterLink>
       </nav>
     </div>
   </header>
